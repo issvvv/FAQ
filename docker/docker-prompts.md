@@ -21,6 +21,7 @@
 
 ### Advanced
 - **`docker exec -it <container_id> bash`** — Open an interactive shell in a running container.
-- **`docker system prune`** — Remove unused data (images, containers, volumes, and networks).
+- **`docker system prune`** — Remove unused data (images, containers, volumes and networks).
+- **`docker image prune -a`** — Remove all unused images.
 - **`docker logs <container_id> --since <time>`** — View logs from a specific time period (e.g., `--since 1h` for the last hour, `--since yyyy-dd-mmThh:mm:ss` for logs since a specific timestamp).
 - **`docker logs <container_id> --until <time>`** — View logs up to a specific time (e.g., `--until yyyy-dd-mmThh:mm:ss` for logs until a specific timestamp).
